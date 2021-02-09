@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alitbs/cfg/cfg.h
+vector
+-
+iostream
+-
+
+/home/alitbs/cfg/main.cpp
+iostream
+-
+vector
+-
+cfg.h
+/home/alitbs/cfg/cfg.h
+
